@@ -1,0 +1,12 @@
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+#bmi = weight / height ** 2
+# print(type(height)) this shows that the class is str
+# print(type(weight)) this shows that the class is str
+# will need to convert both for this math to work
+
+bmi = int(weight) / float(height) ** 2 
+bmi_as_int = int(bmi)
+
+print(bmi_as_int) 
